@@ -16,7 +16,7 @@ Since the tool is a non-standard version of Frama-C, it is recommended to use op
 
 * Clone the code in this repository
 * Install opam 4.05.0
-* Install the customized Frama-C using the following commands where <dir> is the directory Frama-C-snapshot:
+* Install the customized Frama-C using the following commands where dir is the directory Frama-C-snapshot:
 
 ```
     opam install depext
