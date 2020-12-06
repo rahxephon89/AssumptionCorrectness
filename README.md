@@ -26,7 +26,7 @@ Since the tool is a non-standard version of Frama-C, it is recommended to use op
     opam install frama-c
 ```
 
-Then go to the directory Frama-C-snapshot/src/plugins/qed and Frama-C-snapshot/src/plugins/wp and execute command respectively:
+Then go to the directory Frama-C-snapshot/src/plugins/qed and Frama-C-snapshot/src/plugins/wp and execute the command below:
 
 ```
     make; make install
