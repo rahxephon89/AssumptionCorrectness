@@ -1,2 +1,0 @@
-{ "prover": "why3:Alt-Ergo,2.3.1", "verdict": "valid", "time": 0.0223,
-  "steps": 60 }
