@@ -16,20 +16,29 @@ Since the tool is a non-standard version of Frama-C, it is recommended to use op
 
 * Clone the code in this repository
 * Install opam 4.05.0
-* Install the customized Frama-C using the following commands where <dir> is the directory  Frama-C-snapshot.
+* Install the customized Frama-C using the following commands where <dir> is the directory Frama-C-snapshot:
 
 ```
     opam install depext
     opam depext frama-c
     opam install --deps-only frama-c
     opam pin add --kind=path frama-c <dir> 
+    opam install frama-c
 ```
+
+Then go to the directory Frama-C-snapshot/src/plugins/qed and Frama-C-snapshot/src/plugins/wp and execute command respectively:
+
+```
+    make; make install
+```
+
 * Install [Coq] (https://coq.inria.fr/opam-using.html)
 
 More information can be found in the GitHub page of Frama-C: [Installation of Frama-C](https://github.com/Frama-C/Frama-C-snapshot/blob/20.0/INSTALL.md)
 
 
-## Execution of the case study
+
+## Execution of the example program
 
  After executing the following command, the proof obligation will be printed to the file output.txt.
 
