@@ -1,0 +1,8 @@
+DEFAULT_SUITES= wp wp_plugin wp_acsl wp_bts wp_store wp_hoare wp_typed wp_usage wp_gallery wp_manual wp_tip wp_region
+TOPLEVEL_PATH=/home/tengzhang/.opam/default/bin/frama-c
+FRAMAC_SHARE=/home/tengzhang/.opam/default/share/frama-c
+FRAMAC_LIB=/home/tengzhang/.opam/default/lib/frama-c
+FRAMAC_PLUGIN=.:/home/tengzhang/.opam/default/lib/frama-c/plugins
+FRAMAC_PLUGIN_GUI=./gui:/home/tengzhang/.opam/default/lib/frama-c/plugins/gui
+OCAMLFIND_IGNORE_DUPS_IN=/home/tengzhang/.opam/default/lib/frama-c/plugins
+OCAMLRUNPARAM=
