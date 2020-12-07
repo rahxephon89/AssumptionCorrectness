@@ -45,7 +45,7 @@ int find(iterator iter, iterator iter2, int n, int v)
     b = iterator_next(&iter2);
     //@assert insertend;
     //@assert dagbegin;
-   /*
+   
    if(b){
        L2:
        value = iterator_next(&iter);
@@ -53,7 +53,7 @@ int find(iterator iter, iterator iter2, int n, int v)
            idx = iter.pointer - 1;
        }
    }
-   */
+   
    i++;
   }
 
