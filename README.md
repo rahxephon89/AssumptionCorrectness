@@ -32,7 +32,7 @@ Then go to the directory Frama-C-snapshot/src/plugins/qed and Frama-C-snapshot/s
     make clean; make; make install
 ```
 
-* Install [Coq] (https://coq.inria.fr/opam-using.html)
+* Install [Coq](https://coq.inria.fr/opam-using.html)
 
 More information can be found in the GitHub page of Frama-C: [Installation of Frama-C](https://github.com/Frama-C/Frama-C-snapshot/blob/20.0/INSTALL.md)
 
