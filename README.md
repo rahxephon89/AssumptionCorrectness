@@ -15,7 +15,7 @@ The directory Frama-C-snapshot contains the customized version of Frama-C to gen
 Since the tool is a non-standard version of Frama-C, it is recommended to use opam to install dependencies and then compile the source:
 
 * Clone the code in this repository
-* Install opam 4.05.0
+* Install opam
 * Install the customized Frama-C using the following commands where dir is the directory Frama-C-snapshot:
 
 ```
@@ -29,7 +29,7 @@ Since the tool is a non-standard version of Frama-C, it is recommended to use op
 Then go to the directory Frama-C-snapshot/src/plugins/qed and Frama-C-snapshot/src/plugins/wp and execute the command below:
 
 ```
-    make; make install
+    make clean; make; make install
 ```
 
 * Install [Coq] (https://coq.inria.fr/opam-using.html)
@@ -43,7 +43,7 @@ More information can be found in the GitHub page of Frama-C: [Installation of Fr
  After executing the following command, the proof obligation will be printed to the file output.txt.
 
  ```
-   frama-c -wp-msg-key "VCGen" -wp find.c > output.txt
+   frama-c -wp-msg-key "VCGen" -wp find_iter_L1.c > output.txt
  ```
 
 
